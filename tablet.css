@@ -1,0 +1,16 @@
+.emptyhead1{
+    display: none;
+}
+.emptyhead2{
+    display: none;
+}
+
+.right-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.head-btn{
+    margin: 2px;
+    border-radius: 0;
+}

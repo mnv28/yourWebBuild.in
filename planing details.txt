@@ -1,0 +1,27 @@
+website name:- www.yourWebAppCreator.com
+Get your 100% Fully Customized Website | We Build Your website 
+
+header--->
+logo-navbar-OrderyourWebsite-Login/Signup
+
+navbar--->Home-OurPastProjects-Website Categories-Pricing-How we Create?-About us
+
+Secondary Header--->
+(Branding or Marketing Line)
+
+MainBody--->
+
+Pricing/Packages boxes
+Our Past Projects (button)
+Form(Ask us)
+Testimonails(Skipped for now in this project)
+
+Footer--->
+Contact details     Terms&conditions
+Copyright claim	    Privacy policy	
+
+
+
+
+
+

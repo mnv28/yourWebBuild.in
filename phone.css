@@ -1,0 +1,108 @@
+/* header */
+/* all header */
+
+.header{
+    height: 93px;
+}
+
+.emptyhead1{
+    display: none;
+}
+
+.emptyhead2{
+    display: none;
+}
+.dibba{
+    margin: 0px;
+}
+
+/* left side */
+
+.left-content{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.pheader-logo {
+    width: 30px;
+}
+
+.logo-text {
+    font-size: 13px;
+}
+
+/* navbar center */
+.center-content{
+    margin-top: 1.4rem;
+}
+.center-content ul li a{
+    font-size: 0.42rem;
+}
+
+.center-content ul li a:hover{
+    background-color: white;
+    color: #2D033B;
+    border-radius: 0;
+}
+
+/* right buttons */
+
+.right-content{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.head-btn{
+    margin: 0;
+    padding: 0px 2px  ;
+    height: auto;
+}
+
+.head-btn a {
+    font-size: 0.45rem;
+    text-align: center;
+    display: flex;
+    padding: 2px;
+}
+
+/* Packages section */
+
+.all-packages{
+    flex-direction: column;
+}
+
+/* Ask us Section */
+
+.all-askus{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Ask-us-form{
+    margin-right: 0px;
+}
+
+.askus-image img{
+    width: 20rem;
+    margin-top: 20px;
+}
+
+/* Secondary Header Mobile */
+.secondary-header{
+    height: 1.3rem;
+}
+
+.for-text h3{
+    font-size: 0.45rem;
+}
+
+/* footer */
+.footer .contact-details{
+    font-size: 0.5rem;
+}
+
+.footer .copyright span{
+    font-size: 0.5rem;
+}

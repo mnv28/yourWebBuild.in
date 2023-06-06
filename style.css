@@ -1,0 +1,359 @@
+/* css starts for primary header */
+
+.header {
+    display: flex;
+    background-color: #2D033B;
+    color: white;
+    height: 110px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0px;
+}
+
+
+
+.emptyhead1 {
+    /* border: 2px solid yellow; */
+    width: 0px;
+    height: 28px;
+    padding: 0 2rem;
+}
+
+.emptyhead2 {
+    /* border: 2px solid yellow; */
+    width: 0px;
+    height: 28px;
+    padding: 0 2rem;
+}
+
+.dibba {
+    margin: 12px;
+    padding: 5px;
+}
+
+
+/* left-side Logo css */
+.left-content {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pheader-logo {
+    width: 71px;
+    filter: invert(100%);
+    cursor: default;
+}
+
+.logo-text {
+    font-size: 20px;
+    cursor: default;
+}
+
+/* navbar css */
+
+/* .center-content { */
+/* border: 2px solid violet; */
+/* } */
+
+.center-content ul {
+    list-style: none;
+    display: flex;
+}
+
+.center-content ul li a {
+    text-decoration: none;
+    padding: 8px;
+    margin: 5px;
+    color: white;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.center-content ul li a:hover {
+    /* text-decoration: underline solid white; */
+    color: yellow;
+    border: 1px solid white;
+    margin: 4px;
+    border-radius: 5px;
+}
+
+/* Right-buttons css */
+
+/* .right-content {
+    border: 2px solid green;
+} */
+
+.head-btn {
+    /* background-color: #810CA8; */
+    background-color: #2D033B;
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 8px;
+    margin: 0 5px;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.head-btn a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+
+.head-btn:hover {
+    background-color: #810CA8;
+}
+
+/* Secondary Header styling css */
+
+.secondary-header{
+    background-color: #C147E9;
+    /* color: white; */
+    height:2rem; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor:default;
+}
+
+.secondary-header span{
+    color:#eee5f1;
+    text-decoration: underline;
+}
+
+/* Main Body styling css */
+/* image */
+
+.image-slider{
+    height: 24rem;
+    width: 100%;
+}
+.img-1 img{
+    width: 100vw;
+    height: 59vh;
+}
+
+/* Packages Css */
+
+.package-heading{
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+.all-packages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.package{
+    border: 3px solid #2D033B;
+    width: 20rem;
+    height: 25.1rem;
+    border-radius: 18px;
+    margin: 2rem 4rem;
+    background-color: #ddaeec;
+    color: black;
+    /* display: flex;
+    align-items: center; */
+    /* justify-content: center; */
+    /* flex-direction: column; */
+    font-size: 1.2rem;
+    /* padding: 0 20px; */
+    text-align: center;
+    box-shadow: 5px 5px 5px gray;
+    cursor: default;
+}
+
+.package-title{
+    font-size: 1.3rem;
+    margin: 29px 0px 10px 0px;
+    padding-bottom: 0.9rem;
+    border-bottom: 2px solid #2D033B;
+    /* border-radius: 8px; */
+
+}
+
+.popular{
+    background-color: green;
+    color: white;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    font-size: 0.6rem;
+    padding: 0px 8px 2px 8px;
+    font-weight: 300;
+}
+
+.popular-support{
+    display: flex;
+    justify-content: center;
+}
+
+.package-title span{
+    font-size: 0.7rem;
+}
+
+.features h6{
+    margin: 0.3rem;
+    border-bottom: 2px solid white;
+    padding-bottom :0.4rem; ;
+}
+
+.p-btn{
+    background-color: #ddaeec;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 4px 55px;
+     cursor: pointer;
+     margin-top: 0.3rem;
+}
+
+.p-btn:hover{
+    background-color: #2D033B;
+    color: white;
+}
+
+.new-price{
+    font-size: 1.9rem;
+}
+
+.old-price{
+    font-size: 0.9rem;
+    text-decoration: line-through;
+}
+
+.price{
+    margin-top: 0.6rem;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+}
+
+/* ask us styling */
+
+.askus-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.askus-image img{
+    width: 30rem;
+    border-radius: 12px;
+    box-shadow: 3px 3px 7px gray;
+}
+
+.askus-image img:hover{
+    box-shadow: 3px 3px 18px gray;
+    cursor: pointer;
+}
+
+
+.all-askus{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+    margin-top: 2rem;
+}
+
+/* .ask-title{
+    background-color: #2D033B;
+} */
+
+.ask-title h2 {
+    text-align: center;
+    border-bottom: 2px solid gray;
+    margin: 15px 0px;
+    padding: 0 0 12px 0
+}
+
+.askus-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Ask-us-form{
+    border: 2px solid gray;
+    border-radius: 12px;
+    margin: 0 9rem 2px 0;
+    box-shadow: 3px 3px 7px gray;
+}
+
+.Ask-us-form:hover{
+    box-shadow: 3px 3px 18px gray;
+    cursor: pointer;
+}
+
+.askus-form input{
+    border-radius: 7px;
+}
+
+.askus-form textarea{
+    border-radius: 7px;
+}
+
+.form-inside{
+    padding: 0.5rem 5px;
+}
+
+.Ask-us-form button{
+    margin: 0.5rem 5px;
+    background-color:#2D033B;
+    color: white;
+    width: 12rem;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.Ask-us-form button:hover{
+    background-color: white;
+    color: #2D033B;
+}
+
+/* Footer styling css */
+
+.footer{
+    background-color: #3C4048;
+    margin-top: 2rem;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .contact-details{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid yellow; */
+    width: 25vw;
+    font-size: 0.9rem;
+    font-weight: 100;
+    padding: 0.8rem;
+    margin: 0.5rem;
+}
+
+.footer .contact-details span{
+    margin: 0.3rem;
+}
+
+.copyright{
+    /* border: 2px solid greenyellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
